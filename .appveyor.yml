@@ -19,11 +19,11 @@ test: off
   #  - yarn run test && npm test # скрипт тестирования
 
 deploy_script: # скрипт развёртывания
-  - git config --global user.email "m-mik@ro.ru"
+  - git config --global user.email "mika_g@internet.ru"
   - git config --global user.name "GegamGrigoryan"
   - git config --list
   - git checkout -b deploy
   - git add -A
   - git commit -m "first commit"
   - git push -f origin deploy
-  - git push --force --quiet "https://${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}@github.com/GegamGrigoryan/https://github.com/GegamGrigoryan/Top_task.git"
+  - git push --force --quiet "https://${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}@github.com/GegamGrigoryan/https://github.com/GegamGrigoryan/testing.git"
