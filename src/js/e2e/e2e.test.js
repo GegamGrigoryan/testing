@@ -10,8 +10,7 @@ describe('Credit Card Validator form', () => {
     let page = null;
     let server = null;
     const baseUrl = 'http://localhost:8080';
-
-
+    
     beforeEach(async () => {
         server = fork(`${__dirname}/e2e.server.js`);
         await new Promise((resolve, reject) => {
