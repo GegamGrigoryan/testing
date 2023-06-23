@@ -15,8 +15,9 @@ build_script:
   - yarn run build # команда сборки
 
 test_script:
-test: off
-  #  - yarn run test && npm test # скрипт тестирования
+test:
+  - yarn run e2e
+    #  - yarn run test && npm test # скрипт тестирования
 
 deploy_script: # скрипт развёртывания
   - git config --global user.email "mika_g@internet.ru"
