@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(96, 90, 90);
+}
+
+.wrp {
+    width: 400px;
+    height: 200px;
+    border: 3px solid rgb(224, 217, 217);
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-wrp {
+    width: 100%;
+    height: 50px;
+    border: 1px solid green;
+    margin-bottom: 50px;
+    background-color: rgb(128, 128, 128);
+
+    position: relative;
+    z-index:1;
+    overflow:hidden;
+}
+
+.input-wrp {
+
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.input {
+    width: 60%;
+}
+
+.btn {
+    width: 30%;
+    border: 1px solid blue;
+}
+
+.mask {
+   filter: alpha(Opacity=10);
+    opacity: 0.10; 
+}
