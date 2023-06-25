@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const WebpackDevServer = require("webpack-dev-server");
-const config = require("D:/домашки/js in brow/testing/webpack.dev.js");
+const config = require("D:/homework/js_in_brow/testing/webpack.dev");
 
 const server = new WebpackDevServer(webpack(config), {});
 server.listen(9000, "localhost", (err) => {
