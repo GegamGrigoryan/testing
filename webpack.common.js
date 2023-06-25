@@ -32,7 +32,9 @@ module.exports = {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader, 'css-loader',
+          
         ],
+        sideEffects: true,
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
