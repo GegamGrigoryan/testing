@@ -6,6 +6,9 @@ module.exports = {
   devServer:{
     port:9000,
   },
+  stats: {
+    children: true,
+},
   target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -34,6 +37,7 @@ module.exports = {
           MiniCssExtractPlugin.loader, 'css-loader',
           
         ],
+        exclude: /node_modules/,
         sideEffects: true,
       },
       {
