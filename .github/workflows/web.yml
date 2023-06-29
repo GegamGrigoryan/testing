@@ -36,7 +36,7 @@ jobs:
         run: yarn run lint
 
       - name: Run test
-        run: yarn run show:coverage
+        run: yarn run test
 
       - name: Build
         run: yarn run build
